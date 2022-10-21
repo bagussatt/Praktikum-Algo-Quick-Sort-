@@ -31,6 +31,11 @@ namespace Praktikum_Algo
                 else
                     Console.WriteLine("\n Array Can Have maximum 20 elements \n");
             }
+            Console.WriteLine("\n========================");
+            Console.WriteLine("Enter Array Elements");
+            Console.WriteLine("\n========================");
+
+
         }
     }
 }
