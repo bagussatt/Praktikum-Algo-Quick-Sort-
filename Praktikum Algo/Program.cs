@@ -16,5 +16,21 @@ namespace Praktikum_Algo
 
         // number of element in array
         private int n;
+
+
+        void input()
+        {
+
+            while (true)
+            {
+                Console.Write("Enter the Number of elements in the array : ");
+                string s = Console.ReadLine();
+                n = Int32.Parse(s);
+                if (n <= 20)
+                    break;
+                else
+                    Console.WriteLine("\n Array Can Have maximum 20 elements \n");
+            }
+        }
     }
 }
